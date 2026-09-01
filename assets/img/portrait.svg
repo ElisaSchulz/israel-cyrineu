@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Placeholder">
+  <rect width="400" height="480" fill="#e9e7e0"/>
+  <rect x="0.5" y="0.5" width="399" height="479" fill="none" stroke="#cfccc2"/>
+  <g fill="#8f8b80" font-family="monospace" font-size="14" text-anchor="middle">
+    <text x="200" y="234">portrait</text>
+    <text x="200" y="254" font-size="11">replace this file</text>
+  </g>
+</svg>

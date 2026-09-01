@@ -61,3 +61,24 @@ For a custom domain (e.g. `israelcyrineu.com`), add it under Settings → Pages,
 point a CNAME record at `<username>.github.io` with the registrar, and leave
 "Enforce HTTPS" checked. A personal domain is worth the ~$12/year on the job
 market — it survives changing institutions.
+
+## Verification checklist
+
+Draft content on this site was reconstructed from public sources (OSU Extension
+pages, published abstracts, news coverage) because the CV was not yet available.
+Before publishing, Israel should confirm:
+
+- [ ] Affiliation and title on the home page — "PhD Candidate" vs. "PhD Student"
+- [ ] The research descriptions on `research.html` — locations, seasons, genotype
+      counts, trait lists, collaborators, and funders
+- [ ] **Every author list on `publications.html`** — these are incomplete
+- [ ] The `European Journal of Agronomy` DOI, which was inferred from the article
+      number (127766) and not confirmed against Crossref
+- [ ] Whether the Extension fact sheets listed are the right years and whether he
+      is a co-author on all of them
+- [ ] Email, Google Scholar ID, ORCID, and the LinkedIn vanity URL
+- [ ] Whether first person ("I study…") or third person ("Israel studies…") is
+      preferred — the site currently uses first person throughout
+
+`talks.html` and `teaching.html` contain no real entries by design; they are
+waiting on the CV.

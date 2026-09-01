@@ -68,7 +68,11 @@ Draft content on this site was reconstructed from public sources (OSU Extension
 pages, published abstracts, news coverage) because the CV was not yet available.
 Before publishing, Israel should confirm:
 
-- [ ] Affiliation and title on the home page — "PhD Candidate" vs. "PhD Student"
+- [ ] The job-market box on the home page — POSITION TYPES and START DATE, and
+      whether he wants that box on the site at all
+- [ ] Which degree each project belongs to — the M.S. (2022–23) or the PhD
+      (2024–26). The European Journal of Agronomy paper may well be M.S. work;
+      `research.html` currently does not say either way
 - [ ] The research descriptions on `research.html` — locations, seasons, genotype
       counts, trait lists, collaborators, and funders
 - [ ] **Every author list on `publications.html`** — these are incomplete

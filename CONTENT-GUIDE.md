@@ -53,9 +53,22 @@ Delete each `<div class="todo">…</div>` block once you've filled in that page.
 
 ## Publishing on GitHub Pages
 
-In the repository: **Settings → Pages → Build and deployment → Source: Deploy from
-a branch**, then pick the branch and the `/ (root)` folder. The site appears at
-`https://<username>.github.io/<repo>/` within a minute or two.
+Deployment is automatic. `.github/workflows/pages.yml` publishes the site every
+time a commit lands on `main`, and it turns Pages on for the repository the first
+time it runs, so there is nothing to configure by hand.
+
+The site appears at `https://<username>.github.io/<repo>/`. To watch a deploy or
+re-run one, open the repository's **Actions** tab and look for "Deploy site to
+GitHub Pages".
+
+Two things that can block the first run:
+
+- **A private repository.** Pages on private repos requires a paid GitHub plan.
+  Making the repo public is the simplest fix for a personal academic site.
+- **Restricted workflow permissions.** If the first run fails at the
+  `configure-pages` step, go to Settings → Actions → General → Workflow
+  permissions and allow read and write, or just switch Settings → Pages →
+  Source to "GitHub Actions" manually.
 
 For a custom domain (e.g. `israelcyrineu.com`), add it under Settings → Pages,
 point a CNAME record at `<username>.github.io` with the registrar, and leave
